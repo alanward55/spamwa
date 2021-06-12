@@ -224,7 +224,7 @@ def termux():
 	lenpo=len(po)
 	for poh in range(lenpo):
 		print(m+str(poh+1)+' '+k+po[poh]['name'])
-	nj=po[int(input(u+'\tPilih > '+h))-1]['Nomor']
+	nj=po[int(input(u+'\tPilih > '+h))-1]['Nomer']
 	for w in range(int(input(u+'\tTotal spam : '+h))):
 		z=spam(nj)
 		if jns == 'ktbs':
