@@ -3,7 +3,7 @@ spamwa adalah alat untuk spam ke wa target via tokped, PHD, dan 3 lainnya
 
 # Instalasi
 ```
-pkg install python
+pkg install python3
 pkg install git
 python3 -m pip install --upgrade pip
 python3 -m pip install requests
